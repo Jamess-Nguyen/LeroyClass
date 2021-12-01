@@ -3,17 +3,18 @@
 }
 
 body {
-	margin-left: 1%;
-	margin-right: 1%;
+	
 	background-color: darkkhaki;
 	background-image: url("Images/woodtexture.jpg");
 	background-repeat: repeat-x,repeat-y;
 
 }
+.edge{
+	margin: 1%;
+}
 
 header{
 	background-color: darkgreen;
-	
 	border: 2px solid darkgreen;
 	border-radius: 5px;
 	padding:5px;
@@ -79,7 +80,9 @@ main{
 	text-shadow: 3px 1px 6px rgb(144, 238, 144,.6);
 	color: #003300;
 	background-color: orange;
-	font-family: "Impact", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-top: 8px;
+	padding-bottom: 10px;
 }
 
 .horizln{
@@ -108,30 +111,41 @@ figure figcaption{
 	align-content: center;
 	padding: 20px;
 	text-align: center;
+	max-width: 98%;
+	min-width: 300px;
 	
 }
 .vid iframe{
 	align-items: center;
 }
 
+.game{
+	margin-left: 30%;
+    margin-right: 30%;
+	min-width: 30px;
+    min-height: 30px;
+    max-width: 95%;
+    max-height: 95px;
+	font-size: 60px;
+	margin-bottom: 1.75em;
+	margin-top: .5em;
+}
 .game h1{
     border-width: 16px;
     background-color: orangered;
     border-color: green;
     border-radius: 4px;
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    margin-left: 30%;
-    margin-right: 30%;
     text-align: center;
-    min-width: 30px;
-    min-height: 30px;
-    max-width: 95%;
-    max-height: 95px;
 	font-size: 60px;
 }
 .game a{
 	color: darkgreen;
 	text-shadow: 4px green;
+}
+.game a:hover{
+	color:orange;
+	background-color: forestgreen;
 }
 .game h1:hover{
 	color: orange;
@@ -147,10 +161,26 @@ table{
 #enemies td h4{
 	padding-left: 36px;
 }
+.enem{
+	width: 650px;
+	text-align: center; 
+}
+.char{
+	margin-left: 15px;
+}
+
 
 .employees #left{
 	direction: rtl;
 	text-align: right;
+}
+
+#faq p{
+	padding-left: 3em;
+	margin-right: 5em;;
+}
+#faq{
+	padding-left: 10px;
 }
 
 
@@ -177,7 +207,13 @@ footer a:active{
 	color: yellow;
 }
 
-
+li a{
+	color:green;
+	font-weight: bold;
+}
+li a:hover{
+	color: darkred;
+}
 .contact{
 	font-size:100%;
 	padding:10px;
@@ -189,8 +225,8 @@ footer a:active{
 	font-weight: bold;
 }
 .contact h3{
-	font-family: "sans-serif";
-	text-shadow: 1px 1px 3px lightgreen;
+	font-family: Impact,"sans-serif";
+
 }
 .copyright p{
 	font-size: 0.8em;
@@ -200,7 +236,7 @@ footer a:active{
 }
 
 .fnt{
-	font-family: semplicitapro,sans-serif;
+	font-family: "semplicita pro",sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
